@@ -1,0 +1,272 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>date</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+	<script type="text/javascript" src="scripts/index.js"></script>
+</head>
+<body>
+	<div class="all">
+		
+		<div class="up">
+			<div class="icloud">
+				<div class="iclli icon"></div>
+				<div class="iclli red">日历</div>
+				<div class="iclli xiaj"></div>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="yearm">
+				<div class="iclli left" id="prev"></div>
+				<div class="iclli riqi" id="topdate"></div>
+				<div class="iclli right" id="nex"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="name">
+				<div class="iclli username">Name</div>
+				<div class="iclli aboutmore"></div>
+				<span class="iclli" style="margin:0 10px;color:#E5E5E5;">|</span>
+				<div class="iclli help"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="middle">
+			<div class="mleft">
+				<div class="today">
+					<div class="nowday" id="leftDate"></div>
+					<div class="todayall" id="allinfo"></div>
+					<div class="mouth">
+						<ul class="xingqi">
+							<li class="xqlist">周一</li>
+							<li class="xqlist">周二</li>
+							<li class="xqlist">周三</li>
+							<li class="xqlist">周四</li>
+							<li class="xqlist">周五</li>
+							<li class="xqlist">周六</li>
+							<li class="xqlist zhouri">周日</li>
+
+							<div class="clear"></div>
+
+						</ul>
+						<ul class="tian">
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+
+
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist"></li>
+							<li class="tlist satday"></li>
+							<li class="tlist sunday"></li>
+							
+							<div class="clear"></div>
+
+						</ul>
+					</div>
+				</div>
+				
+				<div class="thing">无事件</div>
+			</div>
+			<!-- <div class="mright">
+			</div> -->
+			
+
+			<div class="timeline" id="timeline">
+				<div class="bao">
+				<div class="todwek" id="rightDay"></div>
+				
+				<div class="borde">
+					<div id="bigimg">
+
+					</div>
+					<div id="border"></div>
+					<div class="NOWTIME"id="NOWTIME">
+						<span class="TIME" id="TIME">下午16:00</span>
+						<div class="YUAN"></div>
+						<div class="XIAN"></div>
+					</div>
+					<div class="line">
+						<span class="nosame">全天</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">1</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">2</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">3</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">4</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">5</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">6</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">7</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">8</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">9</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">10</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">11</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday hanzi">中午</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">1</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">2</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">3</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">4</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">5</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">6</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">7</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">8</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">9</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">10</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+					<div class="line">
+						<span class="allday">11</span>
+						<div class="solidline"></div>
+						<div class="dottline"></div>
+					</div>
+				</div>
+				
+			</div>	
+			</div>
+		</div>
+
+		<div class="bottom">
+			<div class="seeting">
+				<div class="seetimg"></div>
+				<strong id="gototoday"><span style="margin:0 10px;color:#C7C7C7;">|</span>前往今天</strong>
+			</div>
+			<div class="item">
+				<span class="zuo"></span>
+				<div class="qiehuan">
+					<div class="ryz ri">日</div>
+					<div class="ryz zhou">周</div>
+					<div class="ryz">月</div>
+				</div>
+				<span class="download"></span>
+			</div>
+			<div class="add"></div>
+		</div>
+	</div>
+</body>
+</html>
